@@ -22,7 +22,10 @@ all_practical_tests = 'https://assets.publishing.service.gov.uk/government/uploa
 auto_practical_tests = 'https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/996312/dvsa1206.ods'
 
 # Download files
-download(all_practical_tests,'data/all_pratical_tests.ods')
-download(auto_practical_tests,'data/auto_pratical_tests.ods')
+download(all_practical_tests,'data/all_practical_tests.ods')
+download(auto_practical_tests,'data/auto_practical_tests.ods')
 
 print('data downloaded')
+
+# all test centres
+# http://assets.dft.gov.uk/dvsa/find-your-nearest/practical.csv
