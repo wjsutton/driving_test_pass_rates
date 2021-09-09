@@ -60,7 +60,7 @@ Encoding
 
 Detailing all of this information in the legend at the top of the map, with tooltips to help explain the data points so the users doesn't have to check the legend when viewing test centres in the South of England
 
-<img src='https://github.com/wjsutton/driving_test_pass_rates/blob/main/Visual%20Alphabet.png?raw=true' width="80%">
+<img src='https://github.com/wjsutton/driving_test_pass_rates/blob/main/Visual%20Alphabet.png?raw=true' width="100%">
 
 ### 📈 Tableau Features
 
@@ -71,6 +71,6 @@ URL: [https://public.tableau.com/app/profile/wjsutton/viz/WheretoPasstheGreatBri
 
 <div style="overflow: hidden;margin: 0 10px 0 0">
 <a href="https://public.tableau.com/app/profile/wjsutton/viz/WheretoPasstheGreatBritishDrivingTest/DrivingTests">
-<img src='https://github.com/wjsutton/driving_test_pass_rates/blob/main/Driving%20Tests.png?raw=true' width="80%">
+<img src='https://github.com/wjsutton/driving_test_pass_rates/blob/main/Driving%20Tests.png?raw=true' width="100%">
 </a>
 </div>
