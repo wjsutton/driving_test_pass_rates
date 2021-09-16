@@ -2,9 +2,10 @@
   Where to Pass the Great British Driving Test :car:
 </h1>
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]() [![GitHub Issues](https://img.shields.io/github/issues/wjsutton/driving_test_pass_rates.svg)](https://github.com/wjsutton/driving_test_pass_rates/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/wjsutton/driving_test_pass_rates.svg)](https://github.com/wjsutton/driving_test_pass_rates/pulls) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
 A data viz project explore driving test pass rates across the UK.
+<br>
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)]() [![GitHub Issues](https://img.shields.io/github/issues/wjsutton/driving_test_pass_rates.svg)](https://github.com/wjsutton/driving_test_pass_rates/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/wjsutton/driving_test_pass_rates.svg)](https://github.com/wjsutton/driving_test_pass_rates/pulls) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 [Twitter][Twitter] :speech_balloon:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[LinkedIn][LinkedIn] :necktie:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[GitHub :octocat:][GitHub]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Website][Website] :link:
 
@@ -18,6 +19,33 @@ Quick Link
 [LinkedIn]:https://www.linkedin.com/in/will-sutton-14711627/
 [GitHub]:https://github.com/wjsutton
 [Website]:https://wjsutton.github.io/
+
+<table border="0">
+ <tr>
+    <td><b>:rocket: PROJECT</b></td>
+    <td><b>:link: LINK</b></td>
+ </tr>
+ <tr>
+    <td>Personal Interest</td>
+    <td><a href="https://public.tableau.com/app/profile/wjsutton/viz/WheretoPasstheGreatBritishDrivingTest/DrivingTests">Tableau Public</a></td>
+ </tr>
+ <tr>
+    <td><b>:hammer_and_wrench: TOOLS</b></td>
+    <td><b>:oil_drum: DATA</b></td>
+ </tr>
+ <tr>
+    <td>Excel, <br>Tableau Public, <br>Mapbox Studio, <br>Figma</td>
+    <td>DVSA driving test centre pass rates, <br>DVSA driving test centre locations</td>
+ </tr>
+ <tr>
+    <td><b>:trophy: AWARDS</b></td>
+    <td><b>:newspaper: CITATIONS</b></td>
+ </tr>
+ <tr>
+    <td><a href="https://public.tableau.com/en-us/gallery/where-pass-great-british-driving-test?tab=viz-of-the-day&type=viz-of-the-day">Viz of the Day 2021-09-14</a></td>
+    <td><a href="https://www.tableau.com/community/blog/2021/9/datafam-roundup-september-6-10-2021">DataFam Roundup: September 6 - 10, 2021</a></td>
+ </tr>
+</table>
 
 ### :a: About
 
