@@ -54,6 +54,16 @@ For many, passing their driving test enables them to travel across the country w
 Using data from the DVSA, I have crafted this informative map of 300+ driving test centres pass rates across Great Britain. With the data provided candidates can see their chances of passing their practical driving test at nearby centres. 
 
 
+<a href="https://public.tableau.com/app/profile/wjsutton/viz/WheretoPasstheGreatBritishDrivingTest/DrivingTests">
+<img src='https://github.com/wjsutton/driving_test_pass_rates/blob/main/Driving%20Tests.png?raw=true' width="35%">
+</a>
+
+<!--a href="https://public.tableau.com/app/profile/wjsutton/viz/WheretoPasstheGreatBritishDrivingTest/DrivingTests">
+<img align='right' src=https://github.com/wjsutton/driving_test_pass_rates/blob/main/screenshots/Collage.png?raw=true' width="35%">
+</a-->
+
+
+
 <h1 style="font-weight:normal"> 
 :hammer: Building the Visualisation
 </h1>
@@ -114,6 +124,8 @@ Detailing all of this information in the legend at the top of the map, with tool
 <img src='https://github.com/wjsutton/driving_test_pass_rates/blob/main/Driving%20Tests.png?raw=true' width="100%">
 </a>
 </div>
+
+<br>
 
 Will Sutton, Sept 2021<br>
 [Twitter][Twitter] :speech_balloon:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[LinkedIn][LinkedIn] :necktie:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[GitHub :octocat:][GitHub]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Website][Website] :link:
