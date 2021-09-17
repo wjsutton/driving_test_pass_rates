@@ -35,7 +35,7 @@ Quick Link
  </tr>
  <tr>
     <td>Excel, <br>Tableau Public, <br>Mapbox Studio, <br>Figma</td>
-    <td>DVSA driving test centre pass rates, <br>DVSA driving test centre locations</td>
+    <td>DVSA driving test centre pass rates, <br>DVSA driving test centre locations<br><br><br></td>
  </tr>
  <tr>
     <td><b>:trophy: AWARDS</b></td>
@@ -49,19 +49,25 @@ Quick Link
 
 ### :a: About
 
-For many, passing their driving test enables them to travel across the country whenever they want to. The structure of the practical driving test remains the same across Great Britain but the amount of traffic, number of roundabouts, and potential hazards varies from place to place. 
+For many, passing their driving test enables them to travel across the country whenever they want to. The structure of the practical driving test remains the same across Great Britain but the amount of traffic, number of roundabouts, and potential hazards vary from place to place.
 
-Using data from the DVSA we can see that candidates could increase their chances of passing their practical driving test by carefully selecting their test centre. 
+Using data from the DVSA, I have crafted this informative map of 300+ driving test centres pass rates across Great Britain. With the data provided candidates can see their chances of passing their practical driving test at nearby centres. 
 
-I've built a dataviz learner drivers to explore a map of Great Britain and the 300+ test centres to see the chances of passing the practical test, with historical data available as a hover over.   
 
-### :broom: Data Clean Up
+<h1 style="font-weight:normal"> 
+:hammer: Building the Visualisation
+</h1>
 
+
+### :oil_drum: Data Sources
 Two data sets are required for this viz:
 - [Pass Rates by Test Centre](https://www.gov.uk/government/statistical-data-sets/car-driving-test-data-by-test-centre)
 - [Test Centre Locations](http://assets.dft.gov.uk/dvsa/find-your-nearest/practical.csv)
 
 'Pass Rates by Test Centre' is downloaded as a .ods file, I've converted this to a Microsoft Excel file as it was planned to reshape the data with Python but the process is a one off and would have been more time consuming than manually reshaping this dataset. 
+
+
+### :broom: Data Clean Up
 
 Below are the sets I took to reshape the data into [driving_tests_map.xlsx](data/driving_tests_map.xlsx)
 
@@ -74,7 +80,8 @@ Test Centre, Date, Male - Conducted, Male - Passes, Male - Pass rate (%), Female
 6. In Tableau size and check the test centre location squares, aiming to have square visable from a distance. 
 7. For overlapping test centres create seperate zoomed in maps for cities, in other cases editing the lat and long data to nudge the square location so the data is clear (a rough location is fine for this viz)
 
-### Visual Alphabet
+
+### :a: Visual Alphabet and Accessibility
 
 For this viz I want to show 4 variables:
 - the location of the test centres on a map of the UK (latitude and longitude) 
@@ -90,15 +97,23 @@ Detailing all of this information in the legend at the top of the map, with tool
 
 <img src='https://github.com/wjsutton/driving_test_pass_rates/blob/main/Visual%20Alphabet.png?raw=true' width="100%">
 
-### 📈 Tableau Features
 
 
-### 📈 See the Dashboard 
+### :chart_with_upwards_trend: Charting in Tableau
 
-URL: [https://public.tableau.com/app/profile/wjsutton/viz/WheretoPasstheGreatBritishDrivingTest/DrivingTests](https://public.tableau.com/app/profile/wjsutton/viz/WheretoPasstheGreatBritishDrivingTest/DrivingTests)
+
+### Mapbox
+
+
+### :framed_picture: Figma Background
+
+---
 
 <div style="overflow: hidden;margin: 0 10px 0 0">
 <a href="https://public.tableau.com/app/profile/wjsutton/viz/WheretoPasstheGreatBritishDrivingTest/DrivingTests">
 <img src='https://github.com/wjsutton/driving_test_pass_rates/blob/main/Driving%20Tests.png?raw=true' width="100%">
 </a>
 </div>
+
+Will Sutton, Sept 2021<br>
+[Twitter][Twitter] :speech_balloon:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[LinkedIn][LinkedIn] :necktie:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[GitHub :octocat:][GitHub]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Website][Website] :link:
