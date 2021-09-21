@@ -101,11 +101,35 @@ Detailing all of this information in the legend at the top of the map, with tool
 
 ### :chart_with_upwards_trend: Charting in Tableau
 
+Two charts types are used in this dashboard:
+- the beeswarm plot
+- the difficulty tiles (boxes)
+
+##### Beeswarm plot
+
+The beeswarm plot generally follows the tutorial from Ken Flerlage [Creating a Basic Beeswarm Plot in Tableau](https://www.flerlagetwins.com/2020/11/beeswarm.html)
+- rounding down?
+- line for national average 
+- colour palette
+
+
+##### Difficulty tiles (boxes)
+
+The tiles are constructed using Tableau's new feature called map layers, essentially 4 separate components are drawn and layed on top of each other, they are:
+- background square
+- slope chart
+- shape
+- foreground sqaure
+
+The foreground square is included here for ease of access to the tooltips.
+
 
 ### Mapbox
 
 
 ### :framed_picture: Figma Background
+
+Font used: Nobile
 
 ---
 
