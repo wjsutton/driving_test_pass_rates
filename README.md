@@ -42,8 +42,8 @@ Quick Link
     <td><b>:newspaper: CITATIONS</b></td>
  </tr>
  <tr>
-    <td><a href="https://public.tableau.com/en-us/gallery/where-pass-great-british-driving-test?tab=viz-of-the-day&type=viz-of-the-day">Viz of the Day 2021-09-14</a></td>
-    <td><a href="https://www.tableau.com/community/blog/2021/9/datafam-roundup-september-6-10-2021">DataFam Roundup: September 6 - 10, 2021</a></td>
+    <td><a href="https://public.tableau.com/en-us/gallery/where-pass-great-british-driving-test?tab=viz-of-the-day&type=viz-of-the-day">Viz of the Day 2021-09-14</a><br><a href="https://public.tableau.com/app/profile/wjsutton/viz/WheretoPasstheGreatBritishDrivingTest/DrivingTests">50+ :star: on Tableau Public</a></td></td>
+    <td><a href="https://www.tableau.com/community/blog/2021/9/datafam-roundup-september-6-10-2021">DataFam Roundup: Sept 6 - 10, 2021</a><br><br></td>
  </tr>
 </table>
 
@@ -103,11 +103,11 @@ Encoding
 - I have created a sloped area chart to show the difficultly, i.e. an uphill slope indicates a relatively harder test. 
 - To show gender I have coloured the red, blue and black, for female, male and no clear advantage. 
 
-Detailing all of this information in the legend at the top of the map, with tooltips to help explain the data points so the users doesn't have to check the legend when viewing test centres in the South of England
+Detailing all of this information in the legend at the top of the map, with tooltips to help explain the data points so the users doesn't have to check the legend when viewing test centres in the South of England.
 
-<img src='https://github.com/wjsutton/driving_test_pass_rates/blob/main/Visual%20Alphabet.png?raw=true' width="100%">
-
-
+<p align="center">
+  <img src='https://github.com/wjsutton/driving_test_pass_rates/blob/main/Visual%20Alphabet.png?raw=true' width="60%">
+</p>
 
 ### :chart_with_upwards_trend: Charting in Tableau
 
@@ -115,23 +115,37 @@ Two charts types are used in this dashboard:
 - the beeswarm plot
 - the difficulty tiles (boxes)
 
-##### Beeswarm plot
+#### :bee: Beeswarm plot
 
-The beeswarm plot generally follows the tutorial from Ken Flerlage [Creating a Basic Beeswarm Plot in Tableau](https://www.flerlagetwins.com/2020/11/beeswarm.html)
-- rounding down?
-- line for national average 
-- colour palette
+<img align="right" src='https://github.com/wjsutton/driving_test_pass_rates/blob/main/screenshots/beeswarm.png?raw=true' width="45%">
 
 
-##### Difficulty tiles (boxes)
+The beeswarm plot generally follows the tutorial from Ken Flerlage: [Creating a Basic Beeswarm Plot in Tableau](https://www.flerlagetwins.com/2020/11/beeswarm.html)
+
+Notes for this specific build:
+- Total pass rates are rounded and converted to integers `INT(ROUND([Total - Pass rate (%)],0))`
+- A reference line for national average was added and then rebuilt in Figma so the line didn't overlap the data points
+- Adding a categorical colour palette caused calculation issues with the plot, I worked around these issues by using a custom sequential colour palette taking the values -1, 0, or 1 and adding the following to my Tableau preference.tps file between the `<preferences>` tags:
+
+```
+<color-palette name="Driving test" type="ordered-sequential" >
+  <color>#7196ff</color>
+  <color>#333333</color>
+  <color>#f55343</color>
+</color-palette>
+```
+Lastly all text (notes, reference line, axis values, legend) were all created in Figma and layed underneath this plot, with the plot background set to None.
+
+
+#### :ballot_box: Difficulty tiles (boxes)
 
 The tiles are constructed using Tableau's new feature called map layers, essentially 4 separate components are drawn and layed on top of each other, they are:
-- background square
-- slope chart
-- shape
-- foreground sqaure
+- A background square (polygon) - a white background so the data stands out
+- A slope chart (polygon) - how difficult the test is compared to national average
+- An angled car shape (shape) - so the car looks like it driving on the slope
+- A blank foreground sqaure (polygon) - giving ease of access to tooltips
 
-The foreground square is included here for ease of access to the tooltips.
+
 
 
 ### Mapbox
